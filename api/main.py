@@ -7,7 +7,7 @@ import tensorflow as tf
 
 app = FastAPI()
 
-MODEL = tf.keras.models.load_model(r"C:\Users\meet.gajera\OneDrive\Desktop\Potato-dieses\my_model.keras")
+MODEL = tf.keras.models.load_model(r"Potato-dieses\my_model.keras")
 CLASS_NAME = ['Early Blight', 'Late Blight', 'Healthy']
 
 @app.get("/ping")
